@@ -1,0 +1,10 @@
+.employee-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center;   /* Center align items horizontally, optional */
+  }

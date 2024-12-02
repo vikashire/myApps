@@ -1,0 +1,41 @@
+.employee-item {
+    list-style: none;
+    margin: 1rem 0; /* Space between items */
+    background-color: #fff;
+  }
+  
+  .employee-item__content {
+    display: flex;
+    flex-direction: column; /* Stacks the content vertically */
+    align-items: flex-start; /* Aligns content to the start */
+    padding: 1rem; /* Adds spacing inside the card */
+    width: 300px; /* Fixed width for the card */
+    background-color: #f9f9f9; /* Light background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    word-wrap: break-word; /* Ensures long text wraps */
+  }
+  
+  .employee-item__info {
+    width: 100%; /* Ensures content takes full width */
+  }
+  
+  .employee-item__name {
+    margin: 0;
+    font-size: 1.25rem; /* Slightly larger font for the name */
+    color: #333; /* Dark text color */
+  }
+  
+  .employee-item__id,
+  .employee-item__department {
+    margin: 0.5rem 0; /* Space between ID and department */
+    font-size: 1rem; /* Standard text size */
+    color: #555; /* Slightly lighter text color */
+    word-wrap: break-word; /* Ensures text wraps within the container */
+  }
+  
+  .employee-item__id strong,
+  .employee-item__department strong {
+    color: #000; /* Stronger emphasis for labels */
+  }
+  

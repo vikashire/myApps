@@ -1,0 +1,25 @@
+.employee-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+.employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.employee-title {
+    font-size: 1.5rem;
+    color: #333;
+}

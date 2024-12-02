@@ -1,0 +1,94 @@
+.button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    /* margin-right: 1rem; */
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #ff4382;
+    border-color: #ff4382;
+  }
+  
+  .button--inverse {
+    background: transparent;
+    color: #ff0055;
+  }
+  
+  .button--inverse:hover,
+  .button--inverse:active {
+    color: white;
+    background: #ff0055;
+  }
+  
+  .button--danger {
+    background: #830000;
+    border-color: #830000;
+  }
+  
+  .button--danger:hover,
+  .button--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+  }
+  
+  .button:disabled,
+  .button:hover:disabled,
+  .button:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button--small {
+    font-size: 0.8rem;
+  }
+  
+  .button--big {
+    font-size: 1.5rem;
+  }
+
+
+
+  /* Styles for Logout Button */
+.icon-button {
+    padding: 0.5rem;
+    background-color: #f8f9fa; /* Same as background */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  * Logout button hover effect */
+.icon-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Logout button active effect */
+.icon-button:active {
+  background-color: #e0e0e0;
+}
+
+/* Icon style inside the button */
+.logout-icon {
+  font-size: 1.2rem; /* Icon size */
+  color: #007bff; /* Icon color */
+}

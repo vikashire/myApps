@@ -1,0 +1,15 @@
+.container {
+    list-style: none;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 50rem;
+    height: 80vh;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}

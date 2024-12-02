@@ -1,0 +1,45 @@
+.add-employee-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-employee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .add-employee-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+    border: 1px solid #025ec0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn:active {
+    background-color: #003f8a;
+  }
+  
